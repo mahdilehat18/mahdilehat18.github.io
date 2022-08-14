@@ -1,0 +1,135 @@
+body {
+  position: relative;
+    display: flex;
+    align-items: center;
+  background-image: linear-gradient(rgb(194, 194, 255), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  height: 140vh;
+  
+  justify-content: center;
+}
+.contenar {
+  position: relative;
+  top: 0px;
+  width: 50ex;
+  background-color: ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+.heder {
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.heder img {
+  position: relative;
+  left: 200px;
+  top: -210px;
+  bottom:00px;
+  border-radius: 110px;
+  border-style: 1px solid;
+  width: 200px;
+  box-shadow: 5px 5px 10px 0px;
+}
+.heder h1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 200px;
+  top: -210px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: ;
+}
+.bio {
+  position: relative;
+  top: -230px;
+  left: 190px;
+  text-align: center;
+  font-size: 20px;
+}
+.mane {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 450px 4px;
+  width: 250px;
+  height: 0px;
+}
+button {
+text-align: center;
+  position: relative;
+  
+  left: -90px;
+  top: 150px;
+    cursor: pointer;
+  background-color: rgba(175, 175, 175, 0.842);
+  border: 1px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+  font: bolder;
+  font-size: larger;
+  
+}
+button:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;}
+
+button:active {
+background-color: white;
+color: black;
+transition: 0.5s;
+  }
+.links{
+  
+    position: relative;
+    display: flex;
+ 
+  align-items: center;
+    top: -150px;
+    left: -150px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+a:hover {
+  color: rgb(0, 162, 255);
+  
+}
+a:active{
+color: gold;
+}
+a{
+  margin: 10px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 430px){
+.heder img{
+width: 150px;
+}
+.heder h1{
+  width: 190px;
+}
+button{
+  width: 190px;
+  position: relative;
+  left: -15px;
+}
+.links{
+  margin: 0px;
+  padding: 5px;
+position: relative;
+left: -75px;
+}
+}}
